@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 50px;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_side {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.ProfileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ProfileText .imgbx {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 1px solid #003147;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.ProfileText .imgbx:hover {
+    box-shadow: 10px 20px 30px;
+}
+
+.ProfileText .imgbx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ProfileText h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4rem;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.ProfileText h2 span {
+    font-size: 14px;
+    font-weight: 400;
+    color: aqua;
+}
+
+.contactInfo {
+    padding-top: 40px;
+}
+
+.title {
+    color: #aaa456;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+    font-size: 12px;
+}
+
+.contactInfo ul li span {
+    font-size: 10px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.contactInfo ul li span a {
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+.contactInfo ul li span a:hover {
+    color: blueviolet;
+}
+
+.contactInfo.education li {
+    margin-bottom: 15px;
+}
+
+.contactInfo.education h4 {
+    color: #03a9f4;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.contactInfo.education h5 {
+    color: #aaa456;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.contactInfo.langauage .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: block;
+    margin-top: 5px;
+}
+
+.contactInfo.langauage .text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #aadadd;
+}
+
+.contactInfo.langauage .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+/*right side*/
+
+.container .right_side {
+    position: relative;
+    background-color: #333333;
+    padding: 40px;
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about:last-child {
+    margin-bottom: 0;
+}
+
+.title2 {
+    color: #03a9f4;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.title2:hover {
+    text-decoration: underline;
+}
+
+.param {
+    color: chocolate;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.test {
+    font-size: 20px;
+    font-weight: 400;
+    color: #aaa456;
+    margin: 2px;
+}
+
+.icons {
+    font-size: 18px;
+    font-weight: 400;
+    color: #03a9f4;
+}
+
+.achor {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 25px;
+    color: #aacaca;
+}
+
+progress {
+    height: 15px;
+    border: 1px solid saddlebrown;
+}
+
+.text1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #03a342;
+}
